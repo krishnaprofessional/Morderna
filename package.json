@@ -1,0 +1,33 @@
+{
+  "name": "image",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "forever": "^0.15.3",
+    "http-proxy": "^1.17.0",
+    "react-scripts": "^2.0.2",
+    "webpack": "4.19.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test --env=node --passWithNoTests",
+    "proxy": "forever src/proxy-es5-wrapper.js"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
