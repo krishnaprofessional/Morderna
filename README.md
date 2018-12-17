@@ -1,12 +1,12 @@
 # Morderna
 
 -> Morderna is a web application using React.Js and Redux. 
-   The whole idea is use to create the exact replica of the original web Page.
+   The whole idea is use to create the exact replica of the original Web Page.
 
 -> Api url is used to fetch the data from the given source.
-   Due to cross platform isssues I used proxy to fetch the data.
+   Due to cross platform isssues I used Proxy to fetch the data.
 
--> CSS and Bootstrap$ are used for styling this web Application.
+-> CSS and Bootstrap4 are used for styling this web Application.
 
 -> Webpack is used for module bundler.
 
